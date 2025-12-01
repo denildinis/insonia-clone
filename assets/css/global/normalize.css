@@ -1,0 +1,19 @@
+@import url("./variables.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-main);
+ 
+}
+
+html, body {
+  overflow-x: hidden;
+  background-color: #f1f4f5;
+}
+
+::selection {
+  background-color: var(--color-primary-light);
+  color: var(--color-bg-light);
+}

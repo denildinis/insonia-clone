@@ -1,0 +1,75 @@
+.products-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-flow: column nowrap;
+    background-color: #F1F4F5;
+    
+}
+.products-section h3{
+    font-size: var(--f4);
+    font-weight: var(--bold);
+    margin: 40px 0 10px 0;
+    text-align: left;
+}
+
+.products-section .products{
+    max-width: 1200px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+
+
+.container{
+    width: 220px;
+}
+
+.products-section .container .favorite{
+    background-color: whitesmoke;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transform: translate(135px, -2px);
+}
+
+.product{
+    background-color: white;
+    padding: 10px 45px 45px 45px;
+    border-radius: 8px;
+}
+
+.info{
+    margin-top: 12px;
+    display: flex;
+    flex-flow: column nowrap;
+    line-height: 25px;
+}
+
+.info span, button{
+    
+    color: rgba(0,0,0,0.6);
+}
+
+.info button{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,0.7);
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contacts span > img, .services span > img{
+    width: 25px;
+}

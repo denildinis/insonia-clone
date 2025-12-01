@@ -1,0 +1,56 @@
+body main section.hero {
+  position: relative;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--color-primary);
+}
+
+
+.hero-content {
+  display: flex;
+  width: 75%;
+    justify-content: center;
+}
+.hero-text  {
+  display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.hero-text h1 {
+  font-size: var(--f7);
+  font-weight: var(--bold);
+  margin-bottom: 1rem;
+  max-width: 660px;
+  color: var(--color-white);
+  text-align: left;
+}
+
+.hero-subtext {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: var(--color-white);
+  color: black;
+  max-width: 200px;
+}
+
+.hero-subtext p {
+  font-size: var(--f2);
+  line-height: 1.5;
+}
+
+.banner-1{
+background-color: var(--color-secondary);
+width: 470px;
+border-radius: 50px;
+}
+.banner-1 img{
+
+ background-size: cover;
+  height: 100%;
+ background-position: center;
+}

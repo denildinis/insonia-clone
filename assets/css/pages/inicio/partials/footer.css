@@ -1,0 +1,89 @@
+footer{
+    margin-top: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color:#F1F4F5 ;
+}
+
+.links{
+    padding-top: 30px;
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+footer .content> div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+
+.content {
+    margin-bottom: 60px;
+}
+
+ol{
+    list-style: none;
+    padding: 0;
+    color: rgba(0,0,0,0.6);
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+.about-us, .contacts, .services, .send-us-a-message{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+    width: 240px;
+    text-align: justify;
+}
+
+footer strong{
+    font-size: 14pt;
+    font-weight: bolder;
+}
+
+.about-us p{
+    color: rgba(0,0,0,0.6);
+}
+
+.send-us-a-message form{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(110, 29, 191);
+    color: white;
+}
+
+input{
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+input[type="text"], input[type="email"]{
+    text-indent: 10px;
+}
+
+.section-5{
+    height: 60px;
+    display: flex;
+    padding-top: 16px;
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.section-5 p{
+    color: rgba(0,0,0,0.6);
+}
+
+footer a{
+    color: rgba(0,0,0,0.6);
+}

@@ -1,0 +1,16 @@
+body header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--color-primary);
+  padding: 36px 60px;
+  height: 60px;
+  color: var(--color-white);
+  border-bottom: 1px solid #3b3939;
+}
+
+body header nav a {
+  text-decoration: none;
+  color: var(--color-white);
+  margin: 0 15px;
+}
